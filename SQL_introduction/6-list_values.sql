@@ -18,4 +18,4 @@ created_at DATE DEFAULT NULL
 USE hbtn_0c_0;
 
 -- Displaying the rows.
-SHOW * FROM first_table;
+SELECT * FROM first_table;
