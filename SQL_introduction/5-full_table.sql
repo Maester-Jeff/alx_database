@@ -18,4 +18,4 @@ created_at DATE DEFAULT NULL
 USE hbtn_0c_0;
 
 -- Describing features of first_table.
-DESC first_table;
+SHOW CREATE TABLE first_table;
