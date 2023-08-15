@@ -14,8 +14,6 @@ name VARCHAR(128)
 -- Including records (rows) into the two columns.
 INSERT INTO first_table
 VALUES('1', 'First name'), ('2', 'Last name'), ('3', 'name');
--- Using the database as current.
-USE hbtn_0c_0;
 
 -- Displaying the rows.
 SELECT *FROM first_table;
