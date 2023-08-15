@@ -8,11 +8,14 @@ USE hbtn_0c_0;
 -- Creating a table in the database.
 CREATE TABLE IF NOT EXISTS first_table 
 (
-id iNT PRIMARY KEY, 
-name VARCHAR(256)
+id iNT AUTO_INCREMENT PRIMARY KEY, 
+name VARCHAR(256) DEFAULT NULL,
+c CHAR(1) DEFAULT NULL,
+created_at DATE DEFAULT NULL
 );
 
+-- Using the database as current.
 USE hbtn_0c_0;
 
 -- Describing features of first_table.
-DESC first_table;
+SHOW COLUMNS FROM first_table;
