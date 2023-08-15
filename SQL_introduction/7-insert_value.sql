@@ -6,3 +6,5 @@ USE hbtn_0c_0;
 -- Inserting a new row.
 INSERT INTO first_table (id, name)
 VALUES (89, 'Holberton School');
+-- Display a new row
+SELECT * FROM first_table;
