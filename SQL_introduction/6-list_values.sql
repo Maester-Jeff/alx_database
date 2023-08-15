@@ -9,7 +9,7 @@ USE hbtn_0c_0;
 CREATE TABLE IF NOT EXISTS first_table 
 (
 id iNT AUTO_INCREMENT PRIMARY KEY, 
-name VARCHAR(128),
+name VARCHAR(128)
 );
 
 INSERT INTO first_table (id, name)
