@@ -16,9 +16,9 @@ created_at DATE DEFAULT NULL
 
 INSERT INTO first_table (id, name)
 VALUES('1', 'First name');
-INSERT INTO first_table
+INSERT INTO first_table (id, name)
 VALUES('2', 'Last name');
-INSERT INTO first_table
+INSERT INTO first_table (id, name)
 VALUES('3', 'name');
 -- Using the database as current.
 USE hbtn_0c_0;
