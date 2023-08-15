@@ -8,7 +8,7 @@ USE hbtn_0c_0;
 -- Creating a table in the database.
 CREATE TABLE IF NOT EXISTS first_table 
 (
-id iNT, 
+id iNT PRIMARY KEY, 
 name VARCHAR(256)
 );
 
