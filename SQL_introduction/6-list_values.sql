@@ -13,8 +13,8 @@ name VARCHAR(128)
 );
 
 -- Including records (rows) into the two columns.
-UPDATE first_table
-SET id = '1' '2' '3', name = 'First name' 'Last name' 'name';
+INSERT INTO first_table
+VALUES('1', 'First name'), ('2', 'Last name'), ('3', 'name');
 
 -- Displaying the rows.
 SELECT *FROM first_table;
