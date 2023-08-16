@@ -15,8 +15,8 @@ c CHAR(1) DEFAULT NULL,
 created_at DATE DEFAULT NULL
 );
 
--- Using the database as current.
-USE hbtn_0c_0;
+INSERT INTO first_table (id, name)
+VALUES ('89', 'Holberton School');
 
 -- Displaying the number of records.
 SELECT COUNT(*) FROM hbtn_0c_0.first_table WHERE id = 89;
