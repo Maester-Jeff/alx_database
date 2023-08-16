@@ -8,10 +8,11 @@ CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
 USE hbtn_0c_0;
 
 -- Creating a table in the database.
-CREATE TABLE IF NOT EXISTS second_table (
-    id iNT, 
-    name VARCHAR(256),
-    score iNT
+CREATE TABLE IF NOT EXISTS second_table
+(
+id iNT, 
+name VARCHAR(256),
+score iNT
 );
 
 -- Inserting records.
