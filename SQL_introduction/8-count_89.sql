@@ -6,12 +6,7 @@ CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
 -- Using the database as current.
 USE hbtn_0c_0;
 
--- Creating a table in the database.
-CREATE TABLE IF NOT EXISTS first_table 
-(
-id iNT, 
-name VARCHAR(128)
-);
+
 
 INSERT INTO first_table (id, name)
 VALUES ('89', 'Holberton School'), ('89', 'Holberton School'), ('89', 'Holberton School');
