@@ -13,15 +13,9 @@ id iNT,
 name VARCHAR(128)
 );
 
--- Using the database as current.
-USE hbtn_0c_0;
-
 -- Inserting records into the table.
 INSERT INTO first_table (id, name)
 VALUES ('89', 'Holberton School'), ('89', 'Holberton School'), ('89', 'Holberton School');
-
--- Using the database as current.
-USE hbtn_0c_0;
 
 -- Displaying the number of records.
 SELECT COUNT(*) FROM hbtn_0c_0.first_table WHERE id = 89;
