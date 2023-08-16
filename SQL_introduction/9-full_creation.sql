@@ -11,7 +11,7 @@ USE hbtn_0c_0;
 CREATE TABLE IF NOT EXISTS second_table 
 (
 id iNT, 
-name VARCHAR(256)
+name VARCHAR(256),
 score iNT
 );
 
