@@ -8,11 +8,6 @@ USE hbtn_0c_0;
 
 -- Creating a table in the database.
 CREATE TABLE IF NOT EXISTS first_table 
-(
-id iNT AUTO_INCREMENT PRIMARY KEY, 
-name VARCHAR(128) DEFAULT NULL,
-c CHAR(1) DEFAULT NULL,
-created_at DATE DEFAULT NULL
-);
+
 -- Displaying the number of records.
 SELECT COUNT(*) FROM hbtn_0c_0.first_table WHERE id = 89;
