@@ -10,7 +10,7 @@ USE hbtn_0c_0;
 CREATE TABLE IF NOT EXISTS first_table 
 (
 id iNT, 
-name VARCHAR(128) NULL
+name VARCHAR(128)
 );
 
 INSERT INTO first_table (id, name)
