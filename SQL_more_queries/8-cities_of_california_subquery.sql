@@ -3,5 +3,5 @@ that can be found in the database hbtn_0d_usa. */
 
 -- Listing the cities.
 SELECT cities.id, cities.name FROM cities, states 
-WHERE states.name = 'California' AND cities.state_id = states_id
+WHERE states.name = 'California' AND cities.state_id = states.id
 ORDER BY cities.id ASC;
