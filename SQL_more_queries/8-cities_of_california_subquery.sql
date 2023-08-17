@@ -2,4 +2,4 @@
 that can be found in the database hbtn_0d_usa. */
 
 -- Listing the cities.
-SELECT * FROM cities ORDER BY id ASC;
+SELECT * FROM cities ORDER BY cities.id ASC;
