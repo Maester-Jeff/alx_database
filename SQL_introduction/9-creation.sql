@@ -1,7 +1,7 @@
 /* Script that creates a table second_table in the database
 hbtn_0c_0 in your MySQL server and add multiples rows. */
 -- Creating the database to be used as current.
-CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
+CREATE SCHEMA IF NOT EXISTS hbtn_0c_0;
 
 -- Using the database as current.
 USE hbtn_0c_0;
