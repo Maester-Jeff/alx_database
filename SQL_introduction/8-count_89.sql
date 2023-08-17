@@ -15,7 +15,7 @@ name VARCHAR(128)
 
 -- Inserting records into the table.
 INSERT INTO first_table (id, name)
-VALUES ('89', 'Holberton School'), ('89', 'Holberton School'), ('89', 'Holberton School');
+VALUES ('89', 'Holberton School'), ('89', 'Holberton School');
 
 -- Displaying the number of records.
-SELECT COUNT(*) FROM hbtn_0c_0.first_table WHERE id = 89;
+SELECT COUNT(*) FROM first_table WHERE id = 89;
