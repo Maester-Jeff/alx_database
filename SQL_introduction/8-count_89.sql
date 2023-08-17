@@ -18,4 +18,6 @@ INSERT INTO first_table (id, name)
 VALUES ('89', 'Holberton School'), ('89', 'Holberton School'), ('89', 'Holberton School');
 
 -- Displaying the number of records.
-SELECT COUNT(*) FROM first_table WHERE id = 89;
+SELECT COUNT(*) AS record_count 
+FROM first_table 
+WHERE id = 89;
